@@ -1,0 +1,88 @@
+# Dependencies
+node_modules/
+.pnpm-store/
+
+# Build outputs
+dist/
+build/
+workdir/
+.next/
+out/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+.venv
+/venv
+tools/src/uv.lock
+
+
+# User configuration (copied from .example)
+config.yaml
+docker-compose.override.yml
+
+# IDE
+.idea/
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json.example
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Testing
+coverage/
+.nyc_output/
+.pytest_cache/
+
+# TypeScript
+*.tsbuildinfo
+vite.config.d.ts
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+*.egg
+
+# Generated runtime data
+core/data/
+
+# Misc
+*.local
+.cache/
+tmp/
+temp/
+
+exports/*
+exports.old*
+artifacts/*
+
+.claude/settings.local.json
+
+docs/github-issues/*
+core/tests/*dumps/*
+
+screenshots/*
+
+.gemini/*
+.coverage
+
+temp/
+# Agent runtime scratch output — never commit
+data/
